@@ -1,0 +1,37 @@
+.posicion{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cara-lateralizq{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: linear-gradient(red,         darkred);
+    border: solid 5px black;
+    transform: rotate(45deg) skew(45deg);
+    top: 240px;
+    left: 478px;
+  }
+  .cara-superior{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: linear-gradient(red,         darkred);
+    border: solid 5px black;
+    transform: rotate(45deg) skew(135deg);
+    top: 93px;
+    left: 626px;
+  }
+  .cara-anterior{
+    width: 285px;
+    height: 287px;
+    position: absolute;
+    background: linear-gradient(red,         darkred);
+    border: solid 5px black;
+    top: 271px;
+    left: 656px;
+  }
+  
